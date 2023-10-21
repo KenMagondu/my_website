@@ -1,0 +1,48 @@
+.image-container {
+    display: flex;
+    flex-direction: column; /* Adjust the flex-direction to column */
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 50%; */
+    background-color:#D9D9D9; /* Replace with your desired soothing background color */
+  }
+  .image-container h3 {
+    color: #2A26E8;
+  }
+  .image-container img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .image-container h3 {
+    margin-top: 10px; /* Adjust the margin as needed */
+    text-align: center; /* Align the text to the center */
+  }
+  .column {
+      width: 33.33%; /* Set the width of each column to divide the space equally */
+      float: left;
+  }
+  
+  .column h2 {
+      text-align: center;
+  }
+  
+  /* Clear the float and create space after the columns */
+  main::after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    padding: 10px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
